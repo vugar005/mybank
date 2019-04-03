@@ -1,8 +1,8 @@
 :host {
     display: block;
     width: 100%;
-    margin-top: 35px;
-    margin-bottom: 18px;
+    margin-top: 2.1875rem;
+    margin-bottom: 1.125rem;
 }
 
 .header {
@@ -11,16 +11,16 @@
     align-items: center;
     width: 100%;
     .header__icon {
-        height: 25px;
-        width: 145px;
+        height: 1.5625rem;
+        width: 9.0625rem;
     }
     .header__links {
         display: flex;
         margin-left: auto;
         .link {
-            font-size: 12px;
+            font-size: 0.75rem;
             font-weight: 500;
-            margin-right: 27px;
+            margin-right: 1.6875rem;
             cursor: pointer;
         }
     }
@@ -30,24 +30,25 @@
         justify-content: center;
         background: var(--secondary-text-color);
         color: #ffffff;
-        font-size: 8px;
-        padding: 5px;
-        border-radius: 50%;
-        width: 16px;
-        height: 16px;
+        font-size: 0.5rem;
+        padding: 0.3125rem;
+        border-radius: 6px;
+        width: 1rem;
+        height: 1rem;
         margin-left: auto;
-        margin-right: 5px;
+        margin-right: 0.3125rem;
 
     }
     .header__lang-switch {
+        display: flex;
         select {
             background-color: var(--secondary-text-color);
-            padding: 1px;
+            padding: 0.0625rem;
             color: #ffffff;
             text-align-last: center;
-            border-radius: 6px;
-            font-size: 10px;
-            width: 70px;
+            border-radius: 0.375rem;
+            font-size: 0.625rem;
+            width: 4.375rem;
             option {
               color: lightgray;
             }
@@ -61,9 +62,9 @@
     }
 
 .lang-switch {
-        width: 63px;
+        width: 3.9375rem;
     /deep/ .mat-form-field-flex {
-        border-radius: 6px;
+        border-radius: 0.375rem;
         background: var(--secondary-text-color);
     }
     /deep/ .mat-form-field-underline {

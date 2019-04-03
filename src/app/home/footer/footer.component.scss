@@ -1,24 +1,24 @@
 :host {
     display: block;
     width: 100%;
-    padding-top: 41px;
-    padding-bottom: 68px;
+    padding-top: 2.5625rem;
+    padding-bottom: 4.25rem;
     background: var(--highlighted-wrapper-background);
 }
 .brand-logo {
-    width: 92px;
+    width: 5.75rem;
 }
 .link {
-    font-size: 11px;
+    font-size: 0.6875rem;
     color: var(--secondary-text-color);
-    margin-bottom: 4px;
+    margin-bottom: 0.25rem;
     cursor: pointer;
 }
 .social-follow {
     .social-follow__title {
-        font-size: 11px;
+        font-size: 0.6875rem;
         color: var(--secondary-text-color);
-        margin-bottom: 13px;
+        margin-bottom: 0.8125rem;
     }
     .social-follow__items {
         display: flex;
@@ -26,9 +26,9 @@
             background: var(--secondary-text-color);
             color: #ffffff;
             border-radius: 50%;
-            margin-right: 9px;
-            width: 31px;
-            height: 31px;
+            margin-right: 0.5625rem;
+            width: 1.9375rem;
+            height: 1.9375rem;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -37,8 +37,8 @@
     }
 }
 .address {
-    margin-top: 47px;
-    font-size: 9px;
+    margin-top: 2.9375rem;
+    font-size: 0.5625rem;
     color: var(--secondary-text-color);
 }
 

@@ -7,7 +7,7 @@
     justify-content: space-between;
     align-items: flex-end;
     flex-wrap: wrap;
-    padding: 27px;
+    padding: 1.6875rem;
     width: 100%;
     .service {
         display: flex;
@@ -15,10 +15,10 @@
         align-items: center;
         cursor: pointer;
         .service__icon {
-            margin-bottom: 15px;
+            margin-bottom: 0.9375rem;
         }
         .service__name {
-            font-size: 18px;
+            font-size: 1.125rem;
             font-weight: 300;
             line-height: normal;
         }

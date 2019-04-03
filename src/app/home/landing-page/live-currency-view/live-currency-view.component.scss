@@ -1,7 +1,7 @@
 :host {
     display: block;
     width: 100%;
-    margin: 13px 0;
+    margin: 0.8125rem 0;
     background: var(--highlighted-wrapper-background);
 }
 .live-currency {
@@ -9,23 +9,23 @@
     align-items: center;
     width: 100%;
     justify-content: space-between;
-    padding: 18px;
+    padding: 1.125rem 0;
     .currency {
         display: flex;
         align-items: center;
         .currency__key {
             font-family: 'Raleway-bold';
-             font-size: 12px;
+             font-size: 0.75rem;
              text-align: left;
-             margin-right: 3px;
+             margin-right: 0.1875rem;
              line-height: normal;
         }
         .currency__value {
-            font-size: 12px;
-            margin-right: 3px;
+            font-size: 0.75rem;
+            margin-right: 0.1875rem;
         }
         .currency__order {
-            font-size: 10px;
+            font-size: 0.625rem;
             &.--up {
                 color: var(--secondary-text-color);
             }
@@ -37,7 +37,7 @@
     }
     .currency-compare {
         color: var(--secondary-text-color);
-        font-size: 12px;
+        font-size: 0.75rem;
         font-weight: normal;
         cursor: pointer;
     }
