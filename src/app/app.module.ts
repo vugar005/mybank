@@ -11,6 +11,7 @@ import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import {MatFormFieldModule, MatSelectModule} from "@angular/material";
 import { FooterComponent } from './home/footer/footer.component';
+import { FormsModule } from '@angular/forms';
 export function HttpLoaderFactory(http: HttpClient) {
   const link = './assets/i18n/';
   return new TranslateHttpLoader(http, link, '.json');
@@ -29,6 +30,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     HttpClientModule,
     MatFormFieldModule,
     MatSelectModule,
+    FormsModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,

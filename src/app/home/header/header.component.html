@@ -29,9 +29,9 @@
               <i class="fas fa-search"></i>
           </div>
           <div class="header__lang-switch">
-            <select value="English">
-               <option value="" disabled selected>English</option>
-              <option>English</option>
+            <select value="English" (change)="onLangChange($event)" [ngModel]="defaultLang">
+                <option value="en" >English</option>
+                <option value="ru">Русский</option>
             </select>
               <!-- <mat-form-field appearance="fill" class="lang-switch">
                   <mat-select placeholder="English">
