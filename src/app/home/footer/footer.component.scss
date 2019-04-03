@@ -1,0 +1,38 @@
+:host {
+    display: block;
+    width: 100%;
+    padding-top: 41px;
+    padding-bottom: 68px;
+    background: var(--highlighted-wrapper-background);
+}
+.brand-logo {
+    width: 92px;
+}
+.link {
+    font-size: 11px;
+    color: var(--secondary-text-color);
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+.social-follow {
+    .social-follow__title {
+        font-size: 11px;
+        color: var(--secondary-text-color);
+        margin-bottom: 16px;
+    }
+    .social-follow__items {
+        display: flex;
+        .follow-item {
+            background: var(--secondary-text-color);
+            color: #ffffff;
+            border-radius: 50%;
+            margin-right: 9px;
+            width: 31px;
+            height: 31px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+    }
+}

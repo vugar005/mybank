@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <div class="live-currency">
+
+        <div class="currency" *ngFor="let currency of currencies ">
+          <div class="currency__key">{{currency.key}}</div>
+          <div class="currency__value">{{currency.value}}</div>
+          <div class="currency__order" [ngClass]="{'--up': currency.type === 'up', '--down': currency.type === 'down'}">
+            <i class="fas fa-arrow-up"></i>
+          </div>
+        </div>
+
+        <div class="currency-compare">
+            {{ '~compare-currencies' | translate }}
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

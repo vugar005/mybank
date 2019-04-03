@@ -1,0 +1,45 @@
+:host {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 13px 0;
+    background: var(--highlighted-wrapper-background);
+}
+.live-currency {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    height: var(--live-currency-height);
+    .currency {
+        display: flex;
+        align-items: center;
+        .currency__key {
+            font-family: 'Raleway-bold';
+             font-size: 12px;
+             text-align: left;
+             margin-right: 3px;
+             line-height: normal;
+        }
+        .currency__value {
+            font-size: 12px;
+            margin-right: 3px;
+        }
+        .currency__order {
+            font-size: 10px;
+            &.--up {
+                color: var(--secondary-text-color);
+            }
+            &.--down {
+                color:#ff3c4e;
+                transform: rotate(180deg);
+            }
+        }
+    }
+    .currency-compare {
+        color: var(--secondary-text-color);
+        font-size: 12px;
+        font-weight: normal;
+        cursor: pointer;
+    }
+}

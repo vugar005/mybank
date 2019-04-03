@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+        <div class="section">
+            <div class="section__title">
+               {{'~partners' | translate}}
+            </div>
+            <div class="section__content">
+                <div class="container-fluid partners">
+                  <div class="row">
+                        <div class="col-12 col-md-3 col-lg-2 partner" *ngFor="let partner of partners">
+                            <img src="./assets/icons/{{partner.icon}}.svg">
+                          </div>
+                  </div>
+
+
+                </div>
+            </div>
+          </div>
+    </div>
+  </div>
+</div>

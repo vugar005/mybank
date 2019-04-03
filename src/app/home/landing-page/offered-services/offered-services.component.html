@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <div class="offered-services">
+          <div class="service" *ngFor="let service of services">
+            <div class="service__icon">
+              <img src="./assets/icons/{{service.type}}.svg">
+            </div>
+            <div class="service__text">
+                {{service.name | translate}}
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
