@@ -7,9 +7,10 @@ import { SharedModule } from '../shared/shared.module';
 import { OfferedServicesComponent } from './offered-services/offered-services.component';
 import { BestOffersComponent } from './best-offers/best-offers.component';
 import { HoldingsComponent } from './best-offers/holdings/holdings.component';
-import { LoansComponent } from './best-offers/loans/loans.component';
 import {MatTabsModule} from '@angular/material/tabs';
 import { PartnersComponent } from './partners/partners.component';
+import { DepositsComponent } from './best-offers/deposits/deposits.component';
+import { DepositOfferComponent } from './best-offers/deposits/deposit-offer/deposit-offer.component';
 
 @NgModule({
   imports: [
@@ -23,7 +24,9 @@ import { PartnersComponent } from './partners/partners.component';
     LiveCurrencyViewComponent,
     OfferedServicesComponent,
     BestOffersComponent, HoldingsComponent,
-    LoansComponent,
-    PartnersComponent]
+    PartnersComponent,
+    DepositsComponent,
+    DepositOfferComponent
+  ]
 })
 export class LandingPageModule { }

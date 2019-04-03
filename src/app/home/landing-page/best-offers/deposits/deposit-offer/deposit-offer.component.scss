@@ -1,0 +1,66 @@
+:host {
+    display: block;
+}
+.offer-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 17px 21px;
+    background: #ffffff;
+    width: 309px;
+    border: solid 2px #eaf1fe;
+    margin-right: 3px;
+    cursor: pointer;
+    .offer-card__header {
+        margin-bottom: 28px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        width: 100%;
+        .offer-card__header__title {
+            display: flex;
+            font-size: 12px;
+            .type-value {
+                margin-left: 5px;
+                font-weight: bold;
+            }
+        }
+        .offer-card__header__logo {
+            height: 27px;
+            width: 101px;
+        }
+
+    }
+    .offer-card__content {
+        width: 100%;
+        display: flex;
+        .deposit-percent {
+            font-size: 10px;
+            margin-right: 54px;
+            .deposit-percent__title {
+                font-family: 'Raleway-bold';
+                font-size: 27px;
+            }
+            .deposit-percent__subtitle {
+                font-size: 12px;
+            }
+        }
+        .deposit-count {
+            .deposit-count__title {
+                font-family: 'Raleway-bold';
+                font-size: 24px;
+            }
+            .deposit-count__subtitle {
+                font-size: 10px;
+            }
+        }
+    }
+    .offer-card__actions {
+        align-self: flex-end;
+        font-size: 12px;
+        font-weight: 900;
+        margin-top: 23px;
+        cursor: pointer;
+    }
+
+}
