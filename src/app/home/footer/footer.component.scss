@@ -18,7 +18,7 @@
     .social-follow__title {
         font-size: 11px;
         color: var(--secondary-text-color);
-        margin-bottom: 16px;
+        margin-bottom: 13px;
     }
     .social-follow__items {
         display: flex;
@@ -40,4 +40,13 @@
     margin-top: 47px;
     font-size: 9px;
     color: var(--secondary-text-color);
+}
+
+@media (max-width: 768px) {
+    .brand-logo {
+        margin-bottom: 20px;
+    }
+    .social-follow {
+        margin-top: 20px;
+    }
 }

@@ -1,7 +1,6 @@
 :host {
     display: block;
     width: 100%;
-    height: 100%;
     margin: 13px 0;
     background: var(--highlighted-wrapper-background);
 }
@@ -10,7 +9,7 @@
     align-items: center;
     width: 100%;
     justify-content: space-between;
-    height: var(--live-currency-height);
+    padding: 18px;
     .currency {
         display: flex;
         align-items: center;
@@ -41,5 +40,10 @@
         font-size: 12px;
         font-weight: normal;
         cursor: pointer;
+    }
+}
+@media (max-width: 768px) {
+    .live-currency {
+        flex-direction: column;
     }
 }

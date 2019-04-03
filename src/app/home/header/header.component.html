@@ -5,7 +5,18 @@
         <div class="header__icon">
             <img src="./assets/icons/mybank-logo.svg">
           </div>
-          <div class="header__links">
+          <div class="header__links d-lg-none">
+              <button mat-button [matMenuTriggerFor]="menu">Menu</button>
+              <mat-menu #menu="matMenu">
+                <button mat-menu-item>{{'~deposits' | translate}}</button>
+                <button mat-menu-item>{{'~loans' | translate}}</button>
+                <button mat-menu-item>{{'~mortgage' | translate}}</button>
+                <button mat-menu-item>{{'~credit-cards' | translate}}</button>
+                <button mat-menu-item>{{'~debit-cards' | translate}}</button>
+                <button mat-menu-item>{{'~exchange-rates' | translate}}</button>
+              </mat-menu>
+          </div>
+          <div class="header__links d-none d-lg-flex">
             <div class="link">
               {{'~deposits' | translate}}
             </div>
@@ -24,6 +35,7 @@
             <div class="link">
               {{'~exchange-rates' | translate}}
             </div>
+
           </div>
           <div class="header__search">
               <i class="fas fa-search"></i>
@@ -43,3 +55,4 @@
     </div>
   </div>
 </div>
+

@@ -1,27 +1,27 @@
 export const MockServices = [
     {
-        type: 'deposits',
-        name: 'deposits'
+        name:  'Вклады',
+        type: 'deposits'
     },
     {
-        type: 'loans',
-        name: 'loans'
+        name:  'Кредиты',
+        type: 'loans'
     },
     {
-        type: 'mortgage',
-        name: 'mortgage'
+        name:  'Ипотека',
+        type: 'mortgage'
     },
     {
-        type: 'credit-cards',
-        name: 'credit-cards'
+        name:  'Кредитные карты',
+        type: 'credit-cards'
     },
     {
-        type: 'debit-cards',
-        name: 'debit-cards'
+        name:  'Дебетовые карты',
+        type: 'debit-cards'
     },
     {
-        type: 'exchange-rates',
-        name: 'exchange-rates'
+        name:  'Курс',
+        type: 'exchange-rates'
     },
 
 

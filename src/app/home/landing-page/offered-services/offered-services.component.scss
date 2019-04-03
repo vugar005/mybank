@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    flex-wrap: wrap;
     padding: 27px;
     width: 100%;
     .service {
@@ -20,6 +21,15 @@
             font-size: 18px;
             font-weight: 300;
             line-height: normal;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .offered-services {
+        justify-content: center;
+        .service {
+            margin: 15px 20px;
         }
     }
 }
