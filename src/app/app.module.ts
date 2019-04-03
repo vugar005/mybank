@@ -16,6 +16,11 @@ export function HttpLoaderFactory(http: HttpClient) {
   const link = './assets/i18n/';
   return new TranslateHttpLoader(http, link, '.json');
 }
+import { PerfectScrollbarConfigInterface, PerfectScrollbarModule, PERFECT_SCROLLBAR_CONFIG } from 'ngx-perfect-scrollbar';
+
+const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
+  suppressScrollX: true
+};
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,6 +37,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatSelectModule,
     MatMenuModule,
     FormsModule,
+    PerfectScrollbarModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
@@ -40,7 +46,12 @@ export function HttpLoaderFactory(http: HttpClient) {
       }
   }),
   ],
-  providers: [],
+  providers: [
+    {
+      provide: PERFECT_SCROLLBAR_CONFIG,
+      useValue: DEFAULT_PERFECT_SCROLLBAR_CONFIG
+    }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
