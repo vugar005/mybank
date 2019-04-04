@@ -1,0 +1,7 @@
+<div class="exchange-rate" >
+    <div class="exchange-rate__key">{{exchangeRate.key}}</div>
+    <div class="exchange-rate__value">{{currentValue | number:'1.1-3'}}</div>
+    <div class="exchange-rate__order" [ngClass]="{'--up': currentValue >= previusValue, '--down': currentValue < previusValue}">
+      <i class="fas fa-arrow-up"></i>
+    </div>
+  </div>

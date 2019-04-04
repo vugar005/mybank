@@ -5,29 +5,28 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 17px 21px;
+    padding: 1.0625rem 1.3125rem;
     background: #ffffff;
-    width: 309px;
-    border: solid 2px #eaf1fe;
-    margin-right: 3px;
-    cursor: pointer;
+    width: 19.3125rem;
+    border: solid 0.125rem #eaf1fe;
+    margin-right: 0.1875rem;
     .offer-card__header {
-        margin-bottom: 28px;
+        margin-bottom: 1.1875rem;
         display: flex;
         align-items: flex-end;
         justify-content: space-between;
         width: 100%;
         .offer-card__header__title {
             display: flex;
-            font-size: 12px;
+            font-size: 0.75rem;
             .type-value {
-                margin-left: 5px;
+                margin-left: 0.3125rem;
                 font-weight: bold;
             }
         }
         .offer-card__header__logo {
-            height: 27px;
-            width: 101px;
+            height: 1.6875rem;
+            width: 6.3125rem;
         }
 
     }
@@ -35,31 +34,31 @@
         width: 100%;
         display: flex;
         .deposit-percent {
-            font-size: 10px;
-            margin-right: 54px;
+            font-size: 0.625rem;
+            margin-right: 3.375rem;
             .deposit-percent__title {
                 font-family: 'Raleway-bold';
-                font-size: 27px;
+                font-size: 1.6875rem;
             }
             .deposit-percent__subtitle {
-                font-size: 12px;
+                font-size: 0.75rem;
             }
         }
         .deposit-count {
             .deposit-count__title {
                 font-family: 'Raleway-bold';
-                font-size: 24px;
+                font-size: 1.5rem;
             }
             .deposit-count__subtitle {
-                font-size: 10px;
+                font-size: 0.625rem;
             }
         }
     }
     .offer-card__actions {
         align-self: flex-end;
-        font-size: 12px;
+        font-size: 0.75rem;
         font-weight: 900;
-        margin-top: 23px;
+        margin-top: 0.875rem;
         cursor: pointer;
     }
 

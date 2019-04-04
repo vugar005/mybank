@@ -1,0 +1,29 @@
+:host {
+    display: block;
+}
+.exchange-rate {
+    display: flex;
+    align-items: center;
+    .exchange-rate__key {
+        font-family: 'Raleway-bold';
+         font-size: 0.75rem;
+         text-align: left;
+         margin-right: 0.1875rem;
+         line-height: normal;
+    }
+    .exchange-rate__value {
+        font-size: 0.75rem;
+        margin-right: 0.1875rem;
+    }
+    .exchange-rate__order {
+        font-size: 0.625rem;
+        transition: transform 200ms ease-in-out;
+        &.--up {
+            color: var(--secondary-text-color);
+        }
+        &.--down {
+            color:#ff3c4e;
+            transform: rotate(180deg);
+        }
+    }
+}

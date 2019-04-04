@@ -7,7 +7,6 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit {
-  title = 'birbank';
   constructor(private translateService: TranslateService) {}
   ngOnInit() {
     this.translateService.setDefaultLang('ru');

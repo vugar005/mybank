@@ -1,0 +1,25 @@
+:host {
+    display: block;
+    width: 100%;
+    margin: 0.8125rem 0;
+    background: var(--highlighted-wrapper-background);
+}
+.exchange-rates {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1.125rem 0;
+
+    .exchange-rate_compare {
+        color: var(--secondary-text-color);
+        font-size: 0.75rem;
+        font-weight: normal;
+        cursor: pointer;
+    }
+}
+@media (max-width: 768px) {
+    .exchange-rates {
+        flex-direction: column;
+    }
+}

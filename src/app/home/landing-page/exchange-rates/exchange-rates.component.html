@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <div class="exchange-rates">
+
+        <exchange-rate *ngFor="let exchangeRate of exchangeRates" [exchangeRate]="exchangeRate">
+
+
+        </exchange-rate>
+
+
+        <div class="exhange-rate__compare">
+            {{ '~compare-currencies' | translate }}
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

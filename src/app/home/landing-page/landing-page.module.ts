@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { LandingPageComponent } from './landing-page.component';
-import { LiveCurrencyViewComponent } from './live-currency-view/live-currency-view.component';
 import { LangingPageRoutingModule } from './landing-page.routing';
 import { SharedModule } from '../shared/shared.module';
 import { OfferedServicesComponent } from './offered-services/offered-services.component';
@@ -11,6 +10,8 @@ import {MatTabsModule} from '@angular/material/tabs';
 import { PartnersComponent } from './partners/partners.component';
 import { DepositsComponent } from './best-offers/deposits/deposits.component';
 import { DepositOfferComponent } from './best-offers/deposits/deposit-offer/deposit-offer.component';
+import { ExchangeRatesComponent } from './exchange-rates/exchange-rates.component';
+import { ExchangeRateComponent } from './exchange-rates/exchange-rate/exchange-rate.component';
 
 @NgModule({
   imports: [
@@ -21,12 +22,13 @@ import { DepositOfferComponent } from './best-offers/deposits/deposit-offer/depo
   ],
   declarations: [
     LandingPageComponent,
-    LiveCurrencyViewComponent,
     OfferedServicesComponent,
     BestOffersComponent, HoldingsComponent,
     PartnersComponent,
     DepositsComponent,
-    DepositOfferComponent
+    DepositOfferComponent,
+    ExchangeRatesComponent,
+    ExchangeRateComponent
   ]
 })
 export class LandingPageModule { }
